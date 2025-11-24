@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './index.css';
 
-const API_URL = "https://zona-medicamentos-scraper-back-production.up.railway.app/";
+const API_URL = "https://zona-medicamentos-scraper-back-production.up.railway.app";
 
 interface Producto {
   Producto: string;
